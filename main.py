@@ -1,8 +1,10 @@
+
+
 def greet_user(name: str) -> str:
-    return f"Hello, Welcome to Demo Lab 2."
+    return f"Hello, {name}! Welcome to the upgraded Demo Lab."
 
 def main():
-    print("=== Demo Lab 2 GitHub ===")
+    print("=== Demo Lab GitHub Actions Test ===")
     try:
         user_name = input("Enter your name: ").strip()
         if not user_name:
